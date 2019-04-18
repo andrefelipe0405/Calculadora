@@ -21,6 +21,16 @@ int main(void)
 		r = a - b;
 		printf("%.2f", r);
 	}
+	else if(c[0] == '*')
+	{
+		r = a * b;
+		printf("%.2f", r);
+	}
+	else if(c[0] == '/')
+	{
+		r = a / b;
+		printf("%.2f", r);
+	}
 	else
 	{
 		printf("Operação invalida");
